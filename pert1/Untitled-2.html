@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Organisasi Kampus</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: darkblue;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: white;
+            margin: 25px auto;
+            padding: 25px;
+            width: 85%;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        img {
+            width: 45%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .gambar {
+            text-align: center;
+        }
+
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .kotak {
+            background-color: #eef3ff;
+            padding: 15px;
+            border-left: 5px solid darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Universitas Pancasila</h1>
+        <p>perguruan tinggi swasta terkemuka di Indonesia yang berdiri pada 28 Oktober 1966 dan saat ini telah terakreditasi Unggul</p>
+    </header>
+
+    <!-- NAVIGASI -->
+    <nav>
+        <!-- Link Internal -->
+        <a href="#profil">Profil</a>
+
+        <!-- Link External -->
+        <a href="https://univpancasila.ac.id/" target="_blank">Google</a>
+
+        <!-- Link Email -->
+        <a href="humas@univpancasila.ac.id ">Email</a>
+    </nav>
+
+    <!-- PROFIL -->
+    <section id="profil">
+
+        <h2>Profil Sekolah</h2>
+
+        <p>
+            SMK Nusantara merupakan sekolah kejuruan yang berfokus pada
+            pengembangan keterampilan, pengetahuan, dan karakter siswa.
+            Sekolah kami menyediakan berbagai program keahlian yang sesuai
+            dengan kebutuhan dunia kerja dan perkembangan teknologi.
+        </p>
+
+        <div class="gambar">
+
+            <!-- GAMBAR 1 -->
+            <img src="gedung-sekolah.jpg"
+                 alt="Gedung SMK Nusantara">
+
+            <!-- GAMBAR 2 -->
+            <img src="kegiatan-sekolah.jpg"
+                 alt="Kegiatan siswa SMK Nusantara">
+
+        </div>
+
+    </section>
+
+    <!-- PROGRAM KEAHLIAN -->
+    <section id="program">
+
+        <h2>Program Keahlian</h2>
+
+        <p>Beberapa program keahlian yang tersedia:</p>
+
+        <!-- LIST 1 : UNORDERED LIST -->
+        <h3>Program Keahlian</h3>
+
+        <ul>
+            <li>Teknik Komputer dan Jaringan</li>
+            <li>Rekayasa Perangkat Lunak</li>
+            <li>Teknik Kendaraan Ringan</li>
+            <li>Akuntansi dan Keuangan</li>
+        </ul>
+
+        <!-- LIST 2 : ORDERED LIST -->
+        <h3>Keunggulan Sekolah</h3>
+
+        <ol>
+            <li>Guru berpengalaman</li>
+            <li>Fasilitas pembelajaran lengkap</li>
+            <li>Laboratorium komputer</li>
+            <li>Kegiatan ekstrakurikuler</li>
+        </ol>
+
+        <!-- LIST 3 : DESCRIPTION LIST -->
+        <h3>Informasi Program</h3>
+
+        <dl>
+            <dt><b>TKJ</b></dt>
+            <dd>Mempelajari jaringan komputer dan teknologi informasi.</dd>
+
+            <dt><b>RPL</b></dt>
+            <dd>Mempelajari pembuatan website dan aplikasi.</dd>
+
+            <dt><b>AKL</b></dt>
+            <dd>Mempelajari akuntansi dan pengelolaan keuangan.</dd>
+        </dl>
+
+    </section>
+
+    <!-- PENDAFTARAN -->
+    <section id="pendaftaran">
+
+        <h2>Alur Pendaftaran</h2>
+
+        <div class="kotak">
+
+            <ol>
+                <li>Mengisi formulir pendaftaran.</li>
+                <li>Mengumpulkan dokumen persyaratan.</li>
+                <li>Mengikuti proses seleksi.</li>
+                <li>Melakukan daftar ulang.</li>
+                <li>Menjadi siswa SMK Nusantara.</li>
+            </ol>
+
+        </div>
+
+    </section>
+
+    <!-- MEDIA SOSIAL -->
+    <section id="kontak">
+
+        <h2>Kontak dan Media Sosial</h2>
+
+        <p>
+            Untuk mendapatkan informasi terbaru mengenai sekolah,
+            silakan mengunjungi media sosial kami.
+        </p>
+
+        <ul>
+            <li>
+                Instagram:
+                <a href="https://www.instagram.com/"
+                   target="_blank">
+                   @smknusantara
+                </a>
+            </li>
+
+            <li>
+                Facebook:
+                <a href="https://www.facebook.com/"
+                   target="_blank">
+                   SMK Nusantara
+                </a>
+            </li>
+
+            <li>
+                Email:
+                <a href="mailto:info@smknusantara.sch.id">
+                    info@smknusantara.sch.id
+                </a>
+            </li>
+        </ul>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 SMK Nusantara. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
